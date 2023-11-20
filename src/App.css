@@ -36,3 +36,113 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7; /* optional, for a light background color */
+}
+
+.signup-container {
+  width: 100%;
+  max-width: 400px;
+  margin:0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.signup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.input-fields {
+  margin-bottom: 20px;
+}
+
+.input-fields input {
+  width: 100%;
+  padding-right: 4px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-fields input:focus {
+  border-color: #007BFF;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  width: 48%; /* Splits the buttons with a tiny gap in between */
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.signup-btn:hover {
+  background-color: #0056b3;
+}
+
+.login-btn {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin:0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.login {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
